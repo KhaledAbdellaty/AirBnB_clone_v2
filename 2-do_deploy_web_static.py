@@ -2,7 +2,7 @@
 """This module contains methods"""
 from fabric.api import put, run, env
 from os.path import exists
-env.hosts = ["3.95.32.69", "54.144.129.181"]
+env.hosts = ["54.160.72.119", "54.90.17.67"]
 
 
 def do_deploy(archive_path):

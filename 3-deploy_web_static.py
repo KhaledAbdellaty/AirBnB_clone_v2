@@ -7,7 +7,7 @@ from sys import argv
 
 env.hosts = ["54.160.72.119", "54.90.17.67"]
 env.user = "ubuntu"
-env.key_filename = "~/.ssh/alx_intranet"
+env.key_filename = "~/.ssh/school"
 
 
 def do_pack():
