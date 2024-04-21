@@ -11,7 +11,7 @@ app = Flask(__name__)
 @app.route("/states_list", strict_slashes=False)
 def states_route():
     """This route that displays HTML page with dynamic data"""
-    states = storage.all()
+    states = storage.all("states")
     return render_template("7-states_list.html", states=states)
 
 
